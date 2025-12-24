@@ -1,4 +1,3 @@
-console.log("Web Serverni boshlash");
 const express = require ("express");
 const app = express();
 const http = require("http");
@@ -20,6 +19,14 @@ app.get("/hello", function(req, res) {
 });
 app.get("/gift", function(req, res) {
     res.send("<h1>Siz sovgalar bo'limidasiz</h1>");
+});
+app.post("/create-item", (req, res)=>{
+    console.log(req);
+    res.json({test: "success"});
+    // TODO: code with db here
+});
+app.get("/", function (req, res) {
+    res.render("harid");
 });
 const server = http.createServer(app);
 let PORT = 3000;
