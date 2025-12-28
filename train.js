@@ -109,38 +109,41 @@ console.log(getHighestValue([23,99,65,77]));
 
 
 
+// console.log ("Jack MA maslaxatlari");
+// const list = [
 
+//  "Yaxshi talaba bo'ling", //00-20
+//     "To'g'ri boshliq tanlang va ko'p xato qiling", //20-30
+//     "O'zingizga ishlashni boshlang", //30-40
+//     "Siz kuchli bo'lgan ishingizni qiling", //40-50
+//     "Yoshlarga investitsiya qiling", // 50-60
+//     "endi sizga qiziq narsa qolmadi dam oling", //60
+// ];
 
-// // console.log ("Dayl Karnegi mashxur frazalari");
-// // const list = [
-// //   "Insonlarni tanqid qilmang, qoralamang va shikoyat qilmang.", //00-20
-//     "Odamlar bilan muomala qilish — bu hayotdagi eng muhim san’at.", //20-30
-//     "Har bir inson o‘zini muhim his qilishni xohlaydi.", //30-40
-//     "Bugun qilayotgan ishing kelajagingni belgilaydi.", //40-50
-//     "Xavotir — bu ertangi muammoni hal qilmaydi, bugungi kuchingni oladi.", // 50-60
-//     "Agar odamni o‘zgartirmoqchi bo‘lsang, avval o‘zingni o‘zgartir.", //60
-// // ];
+// function maslahatBering(a, callback) {
+//     if (typeof a !== "number" ) callback ("insert a number", null);
+//     else if ( a<=20) callback (null, list[0]);
+//     else if (a>20 && a<=30) callback (null, list[1]);
+//     else if (a>30 && a<=40) callback (null, list[2]);
+//     else if (a>40 && a<=50) callback (null, list[3]);
+//     else if (a>50 && a<=60) callback (null, list[4]);
+//     else {
+//         setTimeout(function(){
+//             callback(null, list[5]);
+//         }, 5000);
+//     };
+// };
+console.log("It is passed from here");
 
-// // function adviceBering(a, callback) {
-// //     if (typeof a !== "number" ) callback ("insert a number please", null);
-// //     else if ( a<=20) callback (null, list[0]);
-// //     else if (a>20 && a<=30) callback (null, list[1]);
-// //     else if (a>30 && a<=40) callback (null, list[2]);
-// //     else if (a>40 && a<=50) callback (null, list[3]);
-// //     else if (a>50 && a<=60) callback (null, list[4]);
-// //     else {
-// //         setTimeout(function(){
-// //             callback(null, list[5]);
-// //         }, 5000);
-// //     }
-// // }
-// // console.log("It is passed from here");
-
-// // adviceBering(61, (err, data) => {
-// //     if (err) console.log("error:", err);
-// //     console.log ("javob:", data);
+maslahatBering(65, (err, data) => {
+    if (err) 
+       
+    console.log ("javob:", data);
+    else {
+        console.log("javob:", data);
+    };
     
-// // });
+});
 // // console.log(
 // //     "It is also passed from here"
 // // );
