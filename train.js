@@ -133,17 +133,17 @@ console.log(getHighestValue([23,99,65,77]));
 //         }, 5000);
 //     };
 // };
-console.log("It is passed from here");
+// console.log("It is passed from here");
 
-maslahatBering(65, (err, data) => {
-    if (err) 
+// maslahatBering(65, (err, data) => {
+//     if (err) 
        
-    console.log ("javob:", data);
-    else {
-        console.log("javob:", data);
-    };
+//     console.log ("javob:", data);
+//     else {
+//         console.log("javob:", data);
+//     };
     
-});
+// });
 // // console.log(
 // //     "It is also passed from here"
 // // );
