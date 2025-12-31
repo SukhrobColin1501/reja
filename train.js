@@ -1,104 +1,20 @@
 console.log('Train task ishga tushdi!');
-// G - TASK
-function getHighestValue(arr) {
- if (arr.length === 0) return -1;
- let maxNum=Math.max(...arr);
 
- return arr.indexOf(maxNum)
-}
-
-console.log(getHighestValue([23,99,65,77]));
+B-Task 
 
 
-
-
-// E - TASK
-// function getReverse(string) {
-//     let arr = string.split("");
-//     arr.reverse();
-//     let reversedString = arr.join("");
-//     return reversedString;
-// }
-
-
-// console.log(getReverse("Colin"));
-
-
-
-// D-Task
-
-// class Shop {
-//     constructor(non, olma, cola) {
-//         this.products =  {
-//         non: non,
-//         cola: cola,
-//         olma: olma };
-//     }
-//     vaqt(){
-//         const date = new Date();
-//         const hours = date.getHours();
-//         const minutes = date.getMinutes();
-//         return `${hours}:${minutes}`;
-//     }
-//     sotish(maxsulot, miqdor) {
-//         if (this.products[maxsulot]>=miqdor) {
-//             this.products[maxsulot]-= miqdor;
-//             console.log(`Hozir ${this.vaqt()} da ${miqdor} ta ${maxsulot} sotildi!`);
-//         }else{
-//             console.log(`Hozir ${this.vaqt()} da bizda ${maxsulot} yetarli miqdorda mavjud emas`);
-            
-//         }
-//     }
-//     qoldiq() {
-//         console.log(`Hozir ${this.vaqt()} da ${this.products.non} ta non, ${this.products.cola} ta cola va ${this.products.lagmon} ta lag'mon mavjud!`);
-//     }
-//     qabul(maxsulot,miqdor) {
-//         this.products[maxsulot] += miqdor;
-//         console.log(`Hozir ${this.vaqt()} da ${miqdor} ta ${maxsulot} qabul qilindi!`);
-        
-//     }
-
-// }
-
-// const myShop = new Shop (7, 8, 9);
-// myShop.qoldiq();
-// myShop.sotish("non", 3);
-// myShop.qabul("cola", 12);
-// myShop.qoldiq();
-
-
-
-
-
-
-
-//C-Task
-// let talk1 = "Mitgroup37";
-// let talk2 = "itm3rguop4";
-// function checkContent(talk1, talk2) {
-//     let qoliptalk1 = talk1.toLowerCase().split('').sort().join('');
-//     let qoliptalk2 = talk2.toLowerCase().split('').sort().join('');
-
-//    return qoliptalk1 === qoliptalk2 ;
-
-// }
-// console.log(checkContent(gap1, gap2));
-
-// B-Task 
-
-
-// function countDigits(str) {
-//     let soni = 0;
-//     for (let i = 0; i < str.length; i++) {
-//       if (!isNaN(str[i]) && str[i] !== ' ') {
-//         soni++;
-//       }
-//     }
-//     return soni;
-//   }
+function countDigits(str) {
+    let soni = 0;
+    for (let i = 0; i < str.length; i++) {
+      if (!isNaN(str[i]) && str[i] !== ' ') {
+        soni++;
+      }
+    }
+    return soni;
+  }
   
-//   const javob = countDigits("a7sdfg23a45sdf94jw0h");
-//   console.log("javob:", javob);
+  const javob = countDigits("a7sdfg23a45sdf94jw0h");
+  console.log("javob:", javob);
 
 
 

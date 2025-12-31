@@ -68,7 +68,7 @@ app.get("/", function (req, res) {
         } else {
             // console.log(data);
 
-            res.render("reja", { items: data });
+            res.render("reja",{items: data});
         }
     });
 });
