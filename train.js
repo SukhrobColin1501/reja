@@ -1,13 +1,26 @@
-E - TASK
-function getReverse(string) {
-    let arr = string.split("");
-    arr.reverse();
-    let reversedString = arr.join("");
-    return reversedString;
+// TASK F
+function findDoublers(f) {
+  for (let i = 0; i < f.length; i++) {
+    if (f.indexOf(f[i]) !== f.lastIndexOf(f[i])) {
+      return true; 
+    }
+  }
+  return false; 
 }
 
+console.log(findDoublers("hello")); 
 
-console.log(getReverse("COLIN"));
+
+// E - TASK
+// function getReverse(string) {
+//     let arr = string.split("");
+//     arr.reverse();
+//     let reversedString = arr.join("");
+//     return reversedString;
+// }
+
+
+// console.log(getReverse("COLIN"));
 
 
 
